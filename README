@@ -32,7 +32,6 @@ envs:
 ```
 
 ## How to create your own step
-
 1. Create a new git repository for your step (**don't fork** the *step template*, create a *new* repository)
 2. Copy the [step template](https://github.com/bitrise-steplib/step-template) files into your repository
 3. Fill the `step.sh` with your functionality
