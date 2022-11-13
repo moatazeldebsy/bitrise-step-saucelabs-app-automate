@@ -7,7 +7,7 @@ app:
     - SAUCELABS_ACCESS_KEY: $SAUCE_ACCESS_KEY
     - SAUCE_CONFIG_PATH: $SAUCE_CONFIG_FILE_PATH
     - BITRISE_STEP_ID: saucelabs-app-automate
-    - BITRISE_STEP_VERSION: "0.0.1"
+    - BITRISE_STEP_VERSION: "0.1.1"
     - BITRISE_STEP_GIT_CLONE_URL: https://github.com/moatazeldebsy/bitrise-step-saucelabs-app-automate.git
     - MY_STEPLIB_REPO_FORK_GIT_URL: git@github.com:com:moatazeldebsy/bitrise-steplib.git
 
@@ -41,8 +41,8 @@ workflows:
             file if you would not specify another value.
           run_if: true
           inputs:
-            - saucelabs_username: $SAUCELABS_USERNAME
-            - saucelabs_access_key: $SAUCELABS_ACCESS_KEY
+            - saucelabs_username: $SAUCE_USERNAME
+            - saucelabs_access_key: $SAUCE_ACCESS_KEY
             - SAUCE_CONFIG_PATH: $SAUCE_CONFIG_FILE_PATH
 
       - script:
