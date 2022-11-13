@@ -3,7 +3,7 @@ set -ex
 
 echo "Install Saucectl"
 
-curl -L https://saucelabs.github.io/saucectl/install | bash
+npm install -g saucectl
 
 saucectl -v
 
