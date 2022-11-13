@@ -6,7 +6,7 @@ app:
     - SAUCELABS_USERNAME: $SAUCE_USERNAME
     - SAUCELABS_ACCESS_KEY: $SAUCE_ACCESS_KEY
     - BITRISE_STEP_ID: saucelabs-app-automate
-    - BITRISE_STEP_VERSION: "0.1.1"
+    - BITRISE_STEP_VERSION: "0.1.2"
     - BITRISE_STEP_GIT_CLONE_URL: https://github.com/moatazeldebsy/bitrise-step-saucelabs-app-automate.git
     - MY_STEPLIB_REPO_FORK_GIT_URL: git@github.com:com:moatazeldebsy/bitrise-steplib.git
 
