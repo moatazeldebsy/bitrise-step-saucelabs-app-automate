@@ -41,7 +41,7 @@ inputs:
       is_required: true
       is_sensitive: true
   
-  - saucelabs_config_path: ".sauce/config.yml"
+  - saucelabs_config_path: .sauce/config.yml
     opts:
       title: "SauceLabs YAML Config Path"
       summary: "SauceLabs YAML config file path. The default config file is .sauce/config.yml"
