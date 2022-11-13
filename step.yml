@@ -45,5 +45,5 @@ inputs:
     opts:
       title: "SauceLabs YAML Config Path"
       summary: "SauceLabs YAML config file path. The default config file is .sauce/config.yml"
-      description: "Specify the SauceLabs YAML config file that you want run, the default config file should be .sauce/config.yml"
+      description: "Specify the SauceLabs YAML config file that you want run ./path/to/{config-file}.yml, If there is a file the default config file will be .sauce/config.yml"
       is_required: false
