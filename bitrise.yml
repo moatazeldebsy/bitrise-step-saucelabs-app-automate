@@ -43,12 +43,7 @@ workflows:
           inputs:
             - saucelabs_username: $SAUCELABS_USERNAME
             - saucelabs_access_key: $SAUCELABS_ACCESS_KEY
-            - app_apk_path: $APP_PATH
-            - test_apk_path: $TEST_PATH
-            - saucelabs_device_name: Google Pixel GoogleAPI Emulator,platformVersion=7.0
-            - saucelabs_video: true
-            - test_framework: espresso
-            - datasaucelabs_data_center: eu-central-1
+            - SAUCE_CONFIG_PATH: $SAUCE_CONFIG_FILE_PATH
 
       - script:
           inputs:
