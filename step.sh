@@ -18,5 +18,5 @@ if [ "$SAUCE_CONFIG_FILE_PATH" == "" ];
 then
 	saucectl run --config .sauce/config.yml
 else
-saucectl run --config $SAUCE_CONFIG_FILE_PATH
+	saucectl run --config $SAUCE_CONFIG_FILE_PATH
 fi

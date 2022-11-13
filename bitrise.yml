@@ -43,7 +43,7 @@ workflows:
           inputs:
             - saucelabs_username: $SAUCE_USERNAME
             - saucelabs_access_key: $SAUCE_ACCESS_KEY
-            - SAUCE_CONFIG_PATH: $SAUCE_CONFIG_FILE_PATH
+            - saucelabs_config_path: $SAUCE_CONFIG_FILE_PATH
 
       - script:
           inputs:
